@@ -1,0 +1,107 @@
+/* body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(2deg, #0f2027, #260217, #FFB6C1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .container {
+    background: rgba(202, 79, 128, 0.05);
+    padding: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(215, 77, 132, 0.3);
+    backdrop-filter: 5px;
+  }
+  
+  .clock {
+    color: pink;
+    font-size: 6rem;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 0 0 10px #020007, 0 0 20px #d7449f;
+  }
+  .alarm-set input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: palevioletred;
+    color: #000;
+  }
+  
+  .alarm-set button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background: #da629e;
+    border: none;
+    border-radius: 50px;
+    color: #1a051c;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .alarm-set button:hover {
+    background: #ff1493;
+    color: #000;
+  }
+  
+  @media (max-width: 600px) {
+    .clock {
+      font-size: 3rem;
+    }
+  
+    .container {
+      padding: 30px 40px;
+    }
+  }
+   */
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(to top right, #f093b3, #4F252E);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #E5BEB5;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .bear {
+    font-size: 1000px;
+    animation: bounce 2s infinite;
+  }
+  
+  #greeting {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #4F252E;
+  }
+  
+  #clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ea047f;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    } 
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
